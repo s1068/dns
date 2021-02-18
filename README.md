@@ -25,4 +25,4 @@ arm64, armv7a, x86_64 architectures are supported in this project. The hardened 
 - Memdisk comparison approach is frida agnostic, hence [frida specific signature changes](https://github.com/feicong/strong-frida) does not bypass this detection mechanism.
 
 ## Note
-Henceforth, pls dont raise issue asking for OLLVM binary for Windows.  PRs welcome. 
+Henceforth, Please don't raise issue asking for OLLVM binary for Windows.  PRs welcome. 
