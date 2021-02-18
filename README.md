@@ -1,8 +1,8 @@
 # DetectFrida
 This project has 3 ways to detect frida hooking
-- a. Detect through named pipes used by Frida
-- b. Detect through frida specific named thread
-- c. Compare text section in memory with text section in disk for both libc and native library
+ 1. Detect through named pipes used by Frida
+ 2. Detect through frida specific named thread
+ 3. Compare text section in memory with text section in disk for both libc and native library
 
 More details can be found in my blog -> [DetectFrida](https://darvincitech.wordpress.com/2019/12/23/detect-frida-for-android)
 
