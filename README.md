@@ -7,9 +7,9 @@ This project has 3 ways to detect frida hooking
 More details can be found in my blog -> [DetectFrida](https://darvincitech.wordpress.com/2019/12/23/detect-frida-for-android)
 
 Also this project has 3 mechanisms to harden the native code
-- a. Replace certain libc calls with syscalls
-- b. Replace string,memory related operation with custom implementation
-- c. Apply O-LLVM native obfuscation
+ 1. Replace certain libc calls with syscalls
+ 2. Replace string,memory related operation with custom implementation
+ 3. Apply O-LLVM native obfuscation
 
 More details can be found in my blog -> [Hardening Native Code](https://darvincitech.wordpress.com/2020/01/07/security-hardening-of-android-native-code)
 
