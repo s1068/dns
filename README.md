@@ -20,9 +20,9 @@ arm64, armv7a, x86_64 architectures are supported in this project. The hardened 
 - Fix scanning of executable sections only if it is readable to avoid crashes when app is targetting API 29
 - Stripped comment section in native library to prevent APKId detecting O-LLVM obfuscator is used
 - Updated Target API to 30
-- Updated Obfuscator-LLVM to [OLLVM-TLL] (https://github.com/yazhiwang/ollvm-tll)
+- Updated Obfuscator-LLVM to [OLLVM-TLL](https://github.com/yazhiwang/ollvm-tll)
 - Fixed false positives found in Android 10 and Android 11. Now the memdisk compare checks the PLT and TEXT sections of libc and native library in a proper way
-- Memdisk comparison approach is frida agnostic, hence [frida specific signature changes] (https://github.com/feicong/strong-frida) does not bypass this detection mechanism.
+- Memdisk comparison approach is frida agnostic, hence [frida specific signature changes](https://github.com/feicong/strong-frida) does not bypass this detection mechanism.
 
 ## Note
 Henceforth, pls dont raise issue asking for OLLVM binary for Windows.  PRs welcome. 
